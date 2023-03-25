@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>shopping cart</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="navbar-center">
+        <span class="menu-icon">
+          <i class="fas fa-bars"></i>
+        </span>
+        <p class="nav-title">x shopping</p>
+        <span class="cart-btn">
+          <i class="fas fa-cart-plus"></i>
+          <span class="cart-itemCount">0</span>
+        </span>
+      </div>
+    </nav>
+
+    <!-- products -->
+    <section>
+      <div class="products">
+        <h2 class="section-title">our products</h2>
+
+        <div class="products-center">
+          <!-- single products -->
+          <!-- <section class="product">
+            <div class="img-container">
+              <img class="product-img" src="images/bed1.jpg" alt="p-1" />
+            </div>
+            <div class="product-desc">
+              <p class="product-title">product title : bed</p>
+              <p class="product-price">product-price</p>
+            </div>
+            <button class="add-to-cart">add to cart</button>
+          </section> -->
+          <!-- end of single products -->
+        </div>
+      </div>
+    </section>
+    <section class="cart-center">
+      <div class="backdrop"></div>
+      <div class="cart">
+        <h3 class="cart-title">your cart</h3>
+        <p class="message">your cart is empty</p>
+        <div class="cart-content">
+          <!-- single item -->
+          <!-- <div class="cart-item">
+            <img src="./images/bed1.jpg" class="cart-item-img" alt="" />
+            <div class="cart-item-desc">
+              <h4>product title</h4>
+              <h5>$ 12.99</h5>
+            </div>
+            <div class="cart-item_btns">
+              <div class="cart-item-controller">
+                <i class="fas fa-chevron-up"></i>
+                <p>1</p>
+                <i class="fas fa-chevron-down"></i>
+              </div>
+              <i class="fas fa-trash"></i>
+            </div>
+          </div> -->
+          <!-- end of single item -->
+        </div>
+        <div class="cart-footer">
+          <span class="cart-total">total price : 99 $</span>
+          <div class="btns">
+            <button type="button" class="btn clear-cart">clear cart</button>
+            <button type="button" class="btn confirm-cart">confirm</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-center">
+        <p class="footer-title">footer</p>
+      </div>
+    </footer>
+
+    <!-- <script src="main.js"></script> -->
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
